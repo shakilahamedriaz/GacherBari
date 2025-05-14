@@ -1,0 +1,510 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="Plants Website, Indoor Plants, GacherBari, Houseplants, Plant Shop">
+  <meta name="description" content="GacherBari - Your premium destination for beautiful, healthy indoor plants. Bringing style and sustainability to your home.">
+
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="./output.css"> <title>GacherBari - Your Indoor Plant Haven</title>
+</head>
+
+<body class="text-white bg-green-950/90"> <header id="navbar" class="bg-gradient-to-r from-green-900 to-[#387F39] fixed w-full top-0 left-0 z-50 shadow-lg">
+    <nav class="container flex items-center justify-between h-16 sm:h-20">
+      <div class="font-bold text-xl sm:text-2xl flex items-center gap-2"><i class="ri-plant-fill text-yellow-400"></i> GacherBari</div>
+
+      <div id="nav-menu"
+        class="absolute top-0 left-[-100%] min-h-[80vh] w-full bg-green-950/90 backdrop-blur-md flex items-center justify-center duration-500 ease-in-out overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto lg:backdrop-blur-none">
+
+        <ul class="flex flex-col items-center gap-8 lg:flex-row lg:gap-6">
+          <li>
+            <a href="#home" class="nav-link active hover:text-yellow-400 transition-colors duration-300"><i class="ri-home-4-line"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link hover:text-yellow-400 transition-colors duration-300">About</a>
+          </li>
+          <li>
+            <a href="#popular" class="nav-link hover:text-yellow-400 transition-colors duration-300">Popular</a>
+          </li>
+          <li>
+            <a href="#wisdom" class="nav-link hover:text-yellow-400 transition-colors duration-300">Care Tips</a>
+          </li>
+          <li>
+            <a href="#review" class="nav-link hover:text-yellow-400 transition-colors duration-300">Review</a>
+          </li>
+        </ul>
+
+        <div class="absolute bottom-0 -right-10 opacity-90 lg:hidden">
+          <img src="./assets/img/leaf-1.png" alt="leaf-1" class="w-32">
+        </div>
+
+        <div class="absolute -top-5 -left-5 rotate-90 opacity-90 lg:hidden">
+          <img src="./assets/img/leaf-2.png" alt="leaf-2" class="w-32">
+        </div>
+      </div>
+
+      <div class="text-xl sm:text-3xl cursor-pointer z-50 lg:hidden">
+        <i class="ri-menu-3-line" id="hamburger"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="relative pt-20 sm:pt-24 lg:pt-32 min-h-screen flex items-center bg-green-950/70"> <div class="container ">
+        <div
+          class="w-72 h-72 bg-yellow-500/30 rounded-full blur-3xl -z-10 opacity-50 absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2 ">
+        </div>
+        <div class="w-64 h-64 bg-green-700/40 rounded-full blur-3xl -z-10 opacity-50 absolute right-10 bottom-10">
+        </div>
+
+        <div class="flex flex-col items-center gap-10 lg:flex-row lg:gap-5">
+          <div class="home__data w-full space-y-6 lg:w-1/2 text-center lg:text-left">
+            <h1>
+              Cultivate Your <span class="text-yellow-500">Sanctuary</span> <br>
+              Beautiful Plants, <span class="text-yellow-500">Effortless Style.</span>
+            </h1>
+
+            <p class="text-slate-300 font-normal leading-relaxed">
+              Welcome to Gacher Bari, where we believe every home deserves a touch of vibrant green. Discover our curated selection of air-purifying, low-maintenance indoor plants designed to transform your space into a healthier, calmer, and more stylish sanctuary—all at prices that nurture your budget.
+            </p>
+
+            <div class="flex flex-col gap-3 sm:flex-row md:gap-4 lg:pt-5 xl:pt-8 justify-center lg:justify-start">
+              <button class="btn hover:bg-yellow-600 transition-all duration-300">
+                <span>Shop Now</span>
+                <i class="ri-shopping-bag-3-line"></i>
+              </button>
+
+              <button class="btn btn_outline hover:bg-yellow-500 hover:text-green-900 transition-all duration-300">
+                <span>Explore More</span>
+                <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+
+            <p class="text-sm font-normal text-slate-200/80 pt-4">
+              Your journey to a greener life starts here.
+            </p>
+
+            <div class="flex items-center justify-center lg:justify-start gap-5 text-lg lg:pt-8">
+              <a href="#" aria-label="Facebook"><i class="ri-facebook-fill text-slate-300 hover:text-yellow-500 transition-colors duration-300 cursor-pointer"></i></a>
+              <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line text-slate-300 hover:text-yellow-500 transition-colors duration-300 cursor-pointer text-base"></i></a>
+              <a href="#" aria-label="Instagram"><i class="ri-instagram-line text-slate-300 hover:text-yellow-500 transition-colors duration-300 cursor-pointer"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-fill text-slate-300 hover:text-yellow-500 transition-colors duration-300 cursor-pointer"></i></a>
+            </div>
+          </div>
+
+          <div class="w-full relative lg:w-1/2">
+            <img src="./assets/img/home2.png" alt="Collection of beautiful indoor plants" class="home__image drop-shadow-2xl">
+            <div class="absolute -top-10 right-0 opacity-40 xl:top-5 animate-movingY">
+              <i class="ri-leaf-line text-6xl text-yellow-500/70"></i>
+            </div>
+            <div class="absolute bottom-0 left-0 opacity-40 xl:bottom-12 animate-rotating">
+              <i class="ri-flower-line text-6xl text-yellow-500/70"></i>
+            </div>
+            <div class="hidden absolute -top-8 -left-5 opacity-40 lg:block animate-scalingUp">
+              <i class="ri-plant-line text-6xl text-yellow-500/70"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="bg-white text-green-900 py-16 md:py-24 scroll-reveal-item">
+      <div class="container w-full grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+
+        <div
+          class="service__card border border-green-700 p-6 cursor-pointer rounded-lg hover:shadow-2xl hover:shadow-green-300/50 hover:border-yellow-500 hover:-translate-y-2 transition-all duration-300 space-y-4 text-center md:text-left">
+          <div class="flex flex-col md:flex-row items-center gap-4">
+            <i class="ri-truck-line text-4xl md:text-5xl text-green-700"></i>
+            <p class="text-lg font-bold">
+              Fast & Fresh <br> Delivery
+            </p>
+          </div>
+          <p class="font-normal leading-relaxed text-sm text-slate-700">Your green companions delivered swiftly and safely to your doorstep. Our efficient logistics ensure they arrive fresh, healthy, and ready to thrive.</p>
+        </div>
+
+        <div
+          class="service__card border border-green-700 p-6 cursor-pointer rounded-lg hover:shadow-2xl hover:shadow-green-300/50 hover:border-yellow-500 hover:-translate-y-2 transition-all duration-300 space-y-4 text-center md:text-left">
+          <div class="flex flex-col md:flex-row items-center gap-4">
+            <i class="ri-customer-service-2-line text-4xl md:text-5xl text-green-700"></i>
+            <p class="text-lg font-bold">
+              Dedicated Plant <br> Support
+            </p>
+          </div>
+          <p class="font-normal leading-relaxed text-sm text-slate-700">Our passion extends to you. Our friendly team offers expert advice, from choosing the perfect plant to care tips, ensuring your green journey is joyful.</p>
+        </div>
+
+        <div
+          class="service__card border border-green-700 p-6 cursor-pointer rounded-lg hover:shadow-2xl hover:shadow-green-300/50 hover:border-yellow-500 hover:-translate-y-2 transition-all duration-300 space-y-4 text-center md:text-left">
+          <div class="flex flex-col md:flex-row items-center gap-4">
+            <i class="ri-plant-line text-4xl md:text-5xl text-green-700"></i>
+            <p class="text-lg font-bold">
+              Quality Sourced <br> Plants
+            </p>
+          </div>
+          <p class="font-normal leading-relaxed text-sm text-slate-700">Discover a diverse selection of high-quality, vibrant plants. Each is carefully sourced and nurtured, perfect for enthusiasts and new plant parents alike.</p>
+        </div>
+
+        <div
+          class="service__card border border-green-700 p-6 cursor-pointer rounded-lg hover:shadow-2xl hover:shadow-green-300/50 hover:border-yellow-500 hover:-translate-y-2 transition-all duration-300 space-y-4 text-center md:text-left">
+          <div class="flex flex-col md:flex-row items-center gap-4">
+            <i class="ri-money-dollar-circle-line text-4xl md:text-5xl text-green-700"></i>
+            <p class="text-lg font-bold">
+              Affordable <br> Greenery
+            </p>
+          </div>
+          <p class="font-normal leading-relaxed text-sm text-slate-700">Bringing nature's beauty into your life shouldn't be a luxury. We offer healthy, stunning plants at prices that make green living accessible to everyone.</p>
+        </div>
+      </div>
+    </div>
+
+    <section id="about" class="relative overflow-hidden py-16 md:py-24 scroll-reveal-item">
+      <div class="about__leaf absolute -top-8 -right-12 opacity-30 md:opacity-50 pointer-events-none">
+        <img src="./assets/img/leaf-3.png" alt="decorative leaf image" class="w-40 md:w-52 xl:w-64">
+      </div>
+      <div class="about__top flex flex-col items-center gap-3 text-center mb-12 md:mb-20">
+        <h2 class="title">Discover GacherBari</h2>
+        <p class="max-w-2xl text-slate-300">The story, passion, and people dedicated to bringing nature closer to you.</p>
+      </div>
+
+      <div class="container space-y-16 xl:space-y-24">
+        <div class="flex flex-col items-center lg:flex-row gap-8 lg:gap-12">
+          <div class="about__item__1-img w-full lg:w-1/2">
+            <img src="./assets/img/plant-1.png" alt="Lush green indoor plant display" class="w-full sm:w-2/3 lg:w-full xl:w-5/6 mx-auto rounded-lg shadow-xl">
+          </div>
+
+          <div class="about__item__1-content w-full lg:w-1/2 text-center lg:text-left">
+            <div class="space-y-5">
+              <h3>Our Roots: <span class="text-yellow-500">Passion</span> <br> for Plant Perfection</h3>
+              <p class="text-slate-300/90 font-normal leading-relaxed">
+                At GacherBari, our journey began with a simple, profound love for nature and a vision to bring its calming, revitalizing presence into every home and workspace. We meticulously source and nurture each plant, ensuring it's not just a product, but a vibrant, healthy companion ready to flourish in your care. We're committed to sustainable practices and believe in the transformative power of plants to enrich lives and environments.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center lg:flex-row-reverse gap-8 lg:gap-12">
+          <div class="about__item__2-img w-full lg:w-1/2">
+            <img src="./assets/img/plant-2.png" alt="Person happily tending to plants" class="w-full sm:w-2/3 lg:w-full xl:w-5/6 mx-auto rounded-lg shadow-xl">
+          </div>
+
+          <div class="about__item__2-content w-full lg:w-1/2 text-center lg:text-left">
+            <div class="space-y-5">
+              <h3>Your Growth <span class="text-yellow-500">Partners:</span> <br> Guidance & Community</h3>
+              <p class="text-slate-300/90 font-normal leading-relaxed">
+                We're more than just a plant shop; we're your dedicated partners on your green journey. Whether you're a seasoned plant enthusiast or just starting, our team provides expert advice to help you choose and care for your botanical friends. Join our growing community of plant lovers, share your successes, and let's cultivate greener, healthier, and more beautiful spaces together, one thriving plant at a time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="popular" class="bg-green-900 py-16 md:py-24 scroll-reveal-item">
+      <div class="popular__top flex flex-col items-center gap-3 text-center mb-16 md:mb-20 lg:mb-40"> <h2 class="title">Our Most Loved Greens</h2>
+        <p class="max-w-2xl text-slate-200">Handpicked favorites that our customers can't get enough of.</p>
+      </div>
+
+      <div class="container w-full grid grid-cols-1 gap-x-8 gap-y-40 md:gap-y-48 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+
+        <div class="popular_card bg-green-950 p-8 pt-28 rounded-lg relative shadow-lg hover:shadow-xl hover:shadow-yellow-500/30 transform hover:-translate-y-3 transition-all duration-300 flex flex-col justify-between">
+          <img src="./assets/img/cart-1.png" alt="Boston Fern plant"
+            class="w-56 h-auto absolute -top-20 left-1/2 transform -translate-x-1/2 drop-shadow-xl group-hover:scale-105 transition-transform duration-300">
+          <div>
+            <p class="italic text-sm text-slate-400">Nephrolepis exaltata</p>
+            <h3 class="text-xl font-semibold">Boston Fern</h3>
+            <div class="flex items-center gap-2 text-xs text-slate-400 mt-2 mb-1">
+                <div><i class="ri-sun-line text-yellow-500"></i> Bright Indirect</div>
+                <div><i class="ri-water-flash-line text-blue-400"></i> High Humidity</div>
+            </div>
+            <div class="text-yellow-500 text-sm py-2">
+              <i class="ri-star-fill"></i> <i class="ri-star-fill"></i> <i class="ri-star-fill"></i> <i class="ri-star-fill"></i> <i class="ri-star-half-fill"></i> (4.5)
+            </div>
+          </div>
+          <div class="flex items-center justify-between mt-4">
+            <p class="text-2xl font-bold text-yellow-500">$18</p>
+            <button class="bg-yellow-500 text-green-950 px-3 py-2 rounded-md hover:bg-yellow-600 transition-colors duration-300 text-sm font-medium flex items-center gap-1">
+                <i class="ri-shopping-cart-fill"></i> Add
+            </button>
+          </div>
+        </div>
+
+        <div class="popular_card bg-green-950 p-8 pt-28 rounded-lg relative shadow-lg hover:shadow-xl hover:shadow-yellow-500/30 transform hover:-translate-y-3 transition-all duration-300 flex flex-col justify-between">
+          <img src="./assets/img/cart-2.png" alt="Rubber Plant"
+            class="w-56 h-auto absolute -top-20 left-1/2 transform -translate-x-1/2 drop-shadow-xl group-hover:scale-105 transition-transform duration-300">
+          <div>
+            <p class="italic text-sm text-slate-400">Ficus elastica</p>
+            <h3 class="text-xl font-semibold">Rubber Plant</h3>
+            <div class="flex items-center gap-2 text-xs text-slate-400 mt-2 mb-1">
+                <div><i class="ri-sun-line text-yellow-500"></i> Bright Indirect</div>
+                <div><i class="ri-water-flash-line text-blue-400"></i> Let Soil Dry</div>
+            </div>
+            <div class="text-yellow-500 text-sm py-2">
+              <i class="ri-star-fill"></i> <i class="ri-star-fill"></i> <i class="ri-star-fill"></i> <i class="ri-star-fill"></i> <i class="ri-star-line text-gray-400"></i> (4.0)
+            </div>
+          </div>
+          <div class="flex items-center justify-between mt-4">
+            <p class="text-2xl font-bold text-yellow-500">$22</p>
+            <button class="bg-yellow-500 text-green-950 px-3 py-2 rounded-md hover:bg-yellow-600 transition-colors duration-300 text-sm font-medium flex items-center gap-1">
+                <i class="ri-shopping-cart-fill"></i> Add
+            </button>
+          </div>
+        </div>
+
+        <div class="popular_card bg-green-950 p-8 pt-28 rounded-lg relative shadow-lg hover:shadow-xl hover:shadow-yellow-500/30 transform hover:-translate-y-3 transition-all duration-300 flex flex-col justify-between">
+          <img src="./assets/img/cart-3.png" alt="Peace Lily plant"
+            class="w-56 h-auto absolute -top-20 left-1/2 transform -translate-x-1/2 drop-shadow-xl group-hover:scale-105 transition-transform duration-300">
+          <div>
+            <p class="italic text-sm text-slate-400">Spathiphyllum wallisii</p>
+            <h3 class="text-xl font-semibold">Peace Lily</h3>
+            <div class="flex items-center gap-2 text-xs text-slate-400 mt-2 mb-1">
+                <div><i class="ri-sun-line text-yellow-500"></i> Low to Bright Indirect</div>
+                <div><i class="ri-water-flash-line text-blue-400"></i> Keep Soil Moist</div>
+            </div>
+            <div class="text-yellow-500 text-sm py-2">
+              <i class="ri-star-fill"></i> <i class="ri-star-fill"></i> <i class="ri-star-fill"></i> <i class="ri-star-fill"></i> <i class="ri-star-half-fill"></i> (4.8)
+            </div>
+          </div>
+          <div class="flex items-center justify-between mt-4">
+            <p class="text-2xl font-bold text-yellow-500">$15</p>
+            <button class="bg-yellow-500 text-green-950 px-3 py-2 rounded-md hover:bg-yellow-600 transition-colors duration-300 text-sm font-medium flex items-center gap-1">
+                <i class="ri-shopping-cart-fill"></i> Add
+            </button>
+          </div>
+        </div>
+
+        <div class="popular_card bg-green-950 p-8 pt-28 rounded-lg relative shadow-lg hover:shadow-xl hover:shadow-yellow-500/30 transform hover:-translate-y-3 transition-all duration-300 flex flex-col justify-between">
+          <img src="./assets/img/cart-4.png" alt="Desert Rose plant"
+            class="w-56 h-auto absolute -top-20 left-1/2 transform -translate-x-1/2 drop-shadow-xl group-hover:scale-105 transition-transform duration-300">
+          <div>
+            <p class="italic text-sm text-slate-400">Adenium obesum</p>
+            <h3 class="text-xl font-semibold">Desert Rose</h3>
+             <div class="flex items-center gap-2 text-xs text-slate-400 mt-2 mb-1">
+                <div><i class="ri-sun-line text-yellow-500"></i> Full Sun</div>
+                <div><i class="ri-water-flash-line text-blue-400"></i> Water Sparingly</div>
+            </div>
+            <div class="text-yellow-500 text-sm py-2">
+              <i class="ri-star-fill"></i> <i class="ri-star-fill"></i> <i class="ri-star-fill"></i> <i class="ri-star-half-fill"></i> <i class="ri-star-line text-gray-400"></i> (3.9)
+            </div>
+          </div>
+          <div class="flex items-center justify-between mt-4">
+            <p class="text-2xl font-bold text-yellow-500">$25</p>
+            <button class="bg-yellow-500 text-green-950 px-3 py-2 rounded-md hover:bg-yellow-600 transition-colors duration-300 text-sm font-medium flex items-center gap-1">
+                <i class="ri-shopping-cart-fill"></i> Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="wisdom" class="py-16 md:py-24 bg-green-950/50 scroll-reveal-item">
+        <div class="container">
+            <div class="wisdom__top flex flex-col items-center gap-3 text-center mb-12 md:mb-16">
+                <h2 class="title">Green Wisdom Corner</h2>
+                <p class="max-w-2xl text-slate-200">Essential tips and guides to help your green friends thrive.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-green-900 p-6 rounded-lg shadow-lg hover:shadow-xl hover:shadow-yellow-500/20 transition-all duration-300 transform hover:-translate-y-1 flex flex-col">
+                    <i class="ri-seedling-line text-yellow-500 text-4xl mb-4 self-start"></i>
+                    <h4 class="text-xl font-semibold mb-2">Choosing Your First Plant</h4>
+                    <p class="text-slate-300 text-sm mb-4 leading-relaxed flex-grow">New to plant parenthood? We'll guide you through selecting the perfect, easy-care plant to start your green journey with confidence.</p>
+                    <a href="#" class="text-yellow-500 hover:text-yellow-400 font-medium mt-auto self-start group">Learn More <i class="ri-arrow-right-s-line transform group-hover:translate-x-1 transition-transform duration-200"></i></a>
+                </div>
+
+                <div class="bg-green-900 p-6 rounded-lg shadow-lg hover:shadow-xl hover:shadow-yellow-500/20 transition-all duration-300 transform hover:-translate-y-1 flex flex-col">
+                    <i class="ri-sun-foggy-line text-yellow-500 text-4xl mb-4 self-start"></i>
+                    <h4 class="text-xl font-semibold mb-2">Understanding Light</h4>
+                    <p class="text-slate-300 text-sm mb-4 leading-relaxed flex-grow">Discover how different light conditions affect your plants and learn to find the perfect spot for each green companion in your home.</p>
+                    <a href="#" class="text-yellow-500 hover:text-yellow-400 font-medium mt-auto self-start group">Learn More <i class="ri-arrow-right-s-line transform group-hover:translate-x-1 transition-transform duration-200"></i></a>
+                </div>
+
+                <div class="bg-green-900 p-6 rounded-lg shadow-lg hover:shadow-xl hover:shadow-yellow-500/20 transition-all duration-300 transform hover:-translate-y-1 flex flex-col">
+                    <i class="ri-water-flash-line text-yellow-500 text-4xl mb-4 self-start"></i>
+                    <h4 class="text-xl font-semibold mb-2">Watering Wisely</h4>
+                    <p class="text-slate-300 text-sm mb-4 leading-relaxed flex-grow">Master the art of watering. Learn when and how much to water your plants to keep them hydrated, healthy, and happy.</p>
+                    <a href="#" class="text-yellow-500 hover:text-yellow-400 font-medium mt-auto self-start group">Learn More <i class="ri-arrow-right-s-line transform group-hover:translate-x-1 transition-transform duration-200"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="review" class="relative py-16 md:py-24 mb-20 md:mb-28 overflow-hidden scroll-reveal-item font-normal">
+      <div class="review__leaf absolute -top-8 -left-12 opacity-30 md:opacity-50 pointer-events-none">
+        <img src="./assets/img/leaf-4.png" alt="decorative leaf image" class="w-40 md:w-52 xl:w-64">
+      </div>
+      <div class="review__top flex flex-col items-center gap-4 text-center mb-10 md:mb-16">
+        <h2 class="title font-normal">From Our Plant Parents</h2>
+        <p class="max-w-2xl text-slate-200 font-normal">Hear what our happy customers are saying about their GacherBari experience!</p>
+      </div>
+
+      <div class="review__swiper container">
+        <div class="swiper py-12"> <ul class="swiper-wrapper">
+
+            <li class="swiper-slide">
+              <div class="flex flex-col gap-5 bg-gradient-to-br from-green-800 to-green-900 rounded-lg p-6 shadow-lg h-full">
+                <p class="text-lg text-slate-200/90 leading-relaxed font-normal">"Absolutely thrilled with my Boston Fern! It arrived healthy and beautifully packaged. GacherBari has become my go-to for all things green. Highly recommend!"</p>
+                <div class="flex items-center mt-auto">
+                  <img src="./assets/img/review-1.jpg" alt="Reviewer Sarah M." class="w-12 h-12 rounded-full border-2 border-yellow-500">
+                  <div class="ml-3">
+                    <p class="text-yellow-500 uppercase font-semibold text-sm">Sarah M.</p>
+                    <p class="text-xs text-slate-300">Home Decorator</p>
+                  </div>
+                  <i class="ri-double-quotes-r text-4xl text-yellow-500/50 ml-auto"></i>
+                </div>
+              </div>
+            </li>
+
+            <li class="swiper-slide">
+              <div class="flex flex-col gap-5 bg-gradient-to-br from-green-800 to-green-900 rounded-lg p-6 shadow-lg h-full">
+                <p class="font-normal text-lg text-slate-200/90 leading-relaxed">"The customer service is top-notch. They helped me choose the perfect low-light plant for my apartment. My Rubber Plant is thriving thanks to their advice!"</p>
+                <div class="flex items-center mt-auto">
+                  <img src="./assets/img/review-2.jpg" alt="Reviewer David K." class="w-12 h-12 rounded-full border-2 border-yellow-500">
+                  <div class="ml-3">
+                    <p class="text-yellow-500 uppercase font-semibold text-sm">David K.</p>
+                    <p class="text-xs text-slate-300">Software Engineer</p>
+                  </div>
+                  <i class="ri-double-quotes-r text-4xl text-yellow-500/50 ml-auto"></i>
+                </div>
+              </div>
+            </li>
+
+            <li class="swiper-slide">
+              <div class="flex flex-col gap-5 bg-gradient-to-br from-green-800 to-green-900 rounded-lg p-6 shadow-lg h-full">
+                <p class="font-normal text-lg text-slate-200/90 leading-relaxed">"I love the variety of unique plants GacherBari offers. My Peace Lily is stunning and brings such tranquility to my workspace. Delivery was surprisingly fast!"</p>
+                <div class="flex items-center mt-auto">
+                  <img src="./assets/img/review-3.jpg" alt="Reviewer Aisha B." class="w-12 h-12 rounded-full border-2 border-yellow-500">
+                  <div class="ml-3">
+                    <p class="text-yellow-500 uppercase font-semibold text-sm">Aisha B.</p>
+                    <p class="text-xs text-slate-300">Yoga Instructor</p>
+                  </div>
+                  <i class="ri-double-quotes-r text-4xl text-yellow-500/50 ml-auto"></i>
+                </div>
+              </div>
+            </li>
+
+            <li class="swiper-slide">
+              <div class="flex flex-col gap-5 bg-gradient-to-br from-green-800 to-green-900 rounded-lg p-6 shadow-lg h-full">
+                <p class="font-normal text-lg text-slate-200/90 leading-relaxed">"Affordable prices without compromising on quality. I've bought several plants from them, and each one has been a delight. The Desert Rose is my favorite!"</p>
+                <div class="flex items-center mt-auto">
+                  <img src="./assets/img/review-4.jpg" alt="Reviewer Michael P." class="w-12 h-12 rounded-full border-2 border-yellow-500">
+                  <div class="ml-3">
+                    <p class="text-yellow-500 uppercase font-semibold text-sm">Michael P.</p>
+                    <p class="text-xs text-slate-300">Teacher</p>
+                  </div>
+                  <i class="ri-double-quotes-r text-4xl text-yellow-500/50 ml-auto"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-yellow-100 text-green-950 pt-32 pb-10 md:pt-36 relative scroll-reveal-item">
+    <div class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2 px-4 sm:px-0">
+      <div class="bg-gradient-to-r from-green-800 to-green-900 px-6 sm:px-10 pt-8 pb-10 space-y-5 rounded-lg shadow-2xl">
+        <h3 class="text-2xl md:text-3xl font-semibold"><span class="text-yellow-400">Stay Rooted:</span> Get Our Newsletter</h3>
+        <p class="text-slate-300 text-sm">Subscribe for exclusive offers, plant care tips, and new arrival alerts directly to your inbox.</p>
+        <form class="flex flex-col md:flex-row gap-3">
+          <input type="email" placeholder="Your Email Address"
+            class="w-full px-5 py-3 text-green-900 rounded-md outline-none focus:ring-2 focus:ring-yellow-500 transition-all duration-300" required>
+          <button type="submit"
+            class="flex items-center justify-center gap-2 bg-yellow-500 text-green-950 px-6 py-3 rounded-md hover:bg-yellow-600 hover:shadow-md transition-all duration-300 font-semibold">
+            <span>Subscribe</span>
+            <i class="ri-send-plane-2-fill"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer__icon container mt-16 mb-10">
+      <div class="border-b border-green-400/50 relative">
+        <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-xs mx-auto">
+          <div class="bg-yellow-100 text-lg text-green-800 text-center space-x-4 py-1">
+            <a href="#" aria-label="Facebook" class="hover:text-yellow-600 transition-colors duration-300"><i class="ri-facebook-circle-fill text-2xl"></i></a>
+            <a href="#" aria-label="Twitter" class="hover:text-yellow-600 transition-colors duration-300"><i class="ri-twitter-x-fill text-2xl"></i></a>
+            <a href="#" aria-label="Instagram" class="hover:text-yellow-600 transition-colors duration-300"><i class="ri-instagram-fill text-2xl"></i></a>
+            <a href="#" aria-label="LinkedIn" class="hover:text-yellow-600 transition-colors duration-300"><i class="ri-linkedin-box-fill text-2xl"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="footer__content container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center md:text-start">
+      <div class="flex flex-col items-center md:items-start">
+        <div class="text-7xl text-green-700 inline-block mb-2">
+          <i class="ri-leaf-fill"></i>
+        </div>
+        <p class="font-normal text-3xl text-green-800">GacherBari</p>
+        <p class="text-sm text-green-700/80 mt-2 max-w-xs mx-auto md:mx-0">Nurturing your love for green, one plant at a time.</p>
+      </div>
+
+      <div>
+        <p class="mb-4 font-bold text-xl text-green-800">Shop</p>
+        <div class="flex flex-col gap-2 text-green-700/90">
+          <a href="#" class="hover:text-yellow-600 hover:underline transition-colors duration-200">Indoor Plants</a>
+          <a href="#" class="hover:text-yellow-600 hover:underline transition-colors duration-200">Flowering Plants</a>
+          <a href="#" class="hover:text-yellow-600 hover:underline transition-colors duration-200">Plant Care Supplies</a>
+          <a href="#" class="hover:text-yellow-600 hover:underline transition-colors duration-200">Pots & Accessories</a>
+          <a href="#" class="hover:text-yellow-600 hover:underline transition-colors duration-200">Shipping & Returns</a>
+        </div>
+      </div>
+
+      <div>
+        <p class="mb-4 font-bold text-xl text-green-800">Information</p>
+        <div class="flex flex-col gap-2 text-green-700/90">
+          <a href="#about" class="hover:text-yellow-600 hover:underline transition-colors duration-200">About Us</a>
+          <a href="#wisdom" class="hover:text-yellow-600 hover:underline transition-colors duration-200">Care Guides</a>
+          <a href="#" class="hover:text-yellow-600 hover:underline transition-colors duration-200">FAQs</a>
+          <a href="#" class="hover:text-yellow-600 hover:underline transition-colors duration-200">Contact Us</a>
+          <a href="#" class="hover:text-yellow-600 hover:underline transition-colors duration-200">Terms of Service</a>
+        </div>
+      </div>
+
+      <div>
+        <p class="mb-4 font-bold text-xl text-green-800">Contact Us</p>
+        <div class="flex flex-col gap-2 text-green-700/90">
+          <a href="tel:+8801992113015" class="hover:text-yellow-600 transition-colors duration-200 flex items-center justify-center md:justify-start gap-2"><i class="ri-phone-line"></i>+777777</a>
+          <a href="mailto:gacherbar..will@gmail.com" class="hover:text-yellow-600 transition-colors duration-200 flex items-center justify-center md:justify-start gap-2"><i class="ri-mail-send-line"></i>gacherbari..willcome@gmail.com</a>
+          <div class="mt-2 flex items-start justify-center md:justify-start gap-2">
+            <i class="ri-map-pin-line mt-1"></i>
+            <span>x,y,z<br>Alpha</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copy__right container">
+      <p class="text-center mt-12 pt-8 border-t border-green-400/30 text-sm text-green-700/70">Copyright &copy; 2025 GacherBari .All rights reserved.</p>
+    </div>
+
+    <div class="footer__floral absolute bottom-0 left-0 opacity-20 pointer-events-none -z-10">
+      <img src="./assets/img/floral-1.png" alt="floral background decoration" class="w-full lg:w-1/2">
+    </div>
+  </footer>
+
+  <a href="#"
+    class="fixed right-4 -bottom-1/2 bg-yellow-500 shadow-lg inline-block px-3 py-1 md:px-4 md:py-2 rounded-full text-lg text-green-950 z-50 hover:-translate-y-1 hover:bg-yellow-600 transition-all duration-300"
+    id="scroll-up">
+    <i class="ri-arrow-up-s-line"></i>
+  </a>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="./assets/js/scrollreveal.min.js"></script>
+
+  <script src="./main.js"></script>
+
+</body>
+</html>
